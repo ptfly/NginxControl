@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0C8AA819BF4A8600C6D448 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0C8AA719BF4A8600C6D448 /* Cocoa.framework */; };
+		BB0C8AB219BF4A8600C6D448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8AB019BF4A8600C6D448 /* InfoPlist.strings */; };
+		BB0C8AB419BF4A8600C6D448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0C8AB319BF4A8600C6D448 /* main.m */; };
+		BB0C8AB819BF4A8600C6D448 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8AB619BF4A8600C6D448 /* Credits.rtf */; };
+		BB0C8ABB19BF4A8600C6D448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0C8ABA19BF4A8600C6D448 /* AppDelegate.m */; };
+		BB0C8ABE19BF4A8600C6D448 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8ABC19BF4A8600C6D448 /* MainMenu.xib */; };
+		BB0C8AC019BF4A8600C6D448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8ABF19BF4A8600C6D448 /* Images.xcassets */; };
+		BB0C8AC719BF4A8600C6D448 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0C8AC619BF4A8600C6D448 /* XCTest.framework */; };
+		BB0C8AC819BF4A8600C6D448 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0C8AA719BF4A8600C6D448 /* Cocoa.framework */; };
+		BB0C8AD019BF4A8600C6D448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8ACE19BF4A8600C6D448 /* InfoPlist.strings */; };
+		BB0C8AD219BF4A8600C6D448 /* Nginx_ControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0C8AD119BF4A8600C6D448 /* Nginx_ControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0C8AC919BF4A8600C6D448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB0C8A9C19BF4A8600C6D448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0C8AA319BF4A8600C6D448;
+			remoteInfo = "Nginx Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0C8AA419BF4A8600C6D448 /* Nginx Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nginx Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0C8AA719BF4A8600C6D448 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BB0C8AAA19BF4A8600C6D448 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BB0C8AAB19BF4A8600C6D448 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BB0C8AAC19BF4A8600C6D448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB0C8AAF19BF4A8600C6D448 /* Nginx Control-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nginx Control-Info.plist"; sourceTree = "<group>"; };
+		BB0C8AB119BF4A8600C6D448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB0C8AB319BF4A8600C6D448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB0C8AB519BF4A8600C6D448 /* Nginx Control-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nginx Control-Prefix.pch"; sourceTree = "<group>"; };
+		BB0C8AB719BF4A8600C6D448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BB0C8AB919BF4A8600C6D448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB0C8ABA19BF4A8600C6D448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB0C8ABD19BF4A8600C6D448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB0C8ABF19BF4A8600C6D448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB0C8AC519BF4A8600C6D448 /* Nginx ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nginx ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0C8AC619BF4A8600C6D448 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB0C8ACD19BF4A8600C6D448 /* Nginx ControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nginx ControlTests-Info.plist"; sourceTree = "<group>"; };
+		BB0C8ACF19BF4A8600C6D448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB0C8AD119BF4A8600C6D448 /* Nginx_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nginx_ControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0C8AA119BF4A8600C6D448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0C8AA819BF4A8600C6D448 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0C8AC219BF4A8600C6D448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0C8AC819BF4A8600C6D448 /* Cocoa.framework in Frameworks */,
+				BB0C8AC719BF4A8600C6D448 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0C8A9B19BF4A8600C6D448 = {
+			isa = PBXGroup;
+			children = (
+				BB0C8AAD19BF4A8600C6D448 /* Nginx Control */,
+				BB0C8ACB19BF4A8600C6D448 /* Nginx ControlTests */,
+				BB0C8AA619BF4A8600C6D448 /* Frameworks */,
+				BB0C8AA519BF4A8600C6D448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0C8AA519BF4A8600C6D448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0C8AA419BF4A8600C6D448 /* Nginx Control.app */,
+				BB0C8AC519BF4A8600C6D448 /* Nginx ControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB0C8AA619BF4A8600C6D448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB0C8AA719BF4A8600C6D448 /* Cocoa.framework */,
+				BB0C8AC619BF4A8600C6D448 /* XCTest.framework */,
+				BB0C8AA919BF4A8600C6D448 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB0C8AA919BF4A8600C6D448 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB0C8AAA19BF4A8600C6D448 /* AppKit.framework */,
+				BB0C8AAB19BF4A8600C6D448 /* CoreData.framework */,
+				BB0C8AAC19BF4A8600C6D448 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BB0C8AAD19BF4A8600C6D448 /* Nginx Control */ = {
+			isa = PBXGroup;
+			children = (
+				BB0C8AB919BF4A8600C6D448 /* AppDelegate.h */,
+				BB0C8ABA19BF4A8600C6D448 /* AppDelegate.m */,
+				BB0C8ABC19BF4A8600C6D448 /* MainMenu.xib */,
+				BB0C8ABF19BF4A8600C6D448 /* Images.xcassets */,
+				BB0C8AAE19BF4A8600C6D448 /* Supporting Files */,
+			);
+			path = "Nginx Control";
+			sourceTree = "<group>";
+		};
+		BB0C8AAE19BF4A8600C6D448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0C8AAF19BF4A8600C6D448 /* Nginx Control-Info.plist */,
+				BB0C8AB019BF4A8600C6D448 /* InfoPlist.strings */,
+				BB0C8AB319BF4A8600C6D448 /* main.m */,
+				BB0C8AB519BF4A8600C6D448 /* Nginx Control-Prefix.pch */,
+				BB0C8AB619BF4A8600C6D448 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB0C8ACB19BF4A8600C6D448 /* Nginx ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB0C8AD119BF4A8600C6D448 /* Nginx_ControlTests.m */,
+				BB0C8ACC19BF4A8600C6D448 /* Supporting Files */,
+			);
+			path = "Nginx ControlTests";
+			sourceTree = "<group>";
+		};
+		BB0C8ACC19BF4A8600C6D448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0C8ACD19BF4A8600C6D448 /* Nginx ControlTests-Info.plist */,
+				BB0C8ACE19BF4A8600C6D448 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0C8AA319BF4A8600C6D448 /* Nginx Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0C8AD519BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "Nginx Control" */;
+			buildPhases = (
+				BB0C8AA019BF4A8600C6D448 /* Sources */,
+				BB0C8AA119BF4A8600C6D448 /* Frameworks */,
+				BB0C8AA219BF4A8600C6D448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nginx Control";
+			productName = "Nginx Control";
+			productReference = BB0C8AA419BF4A8600C6D448 /* Nginx Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB0C8AC419BF4A8600C6D448 /* Nginx ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0C8AD819BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "Nginx ControlTests" */;
+			buildPhases = (
+				BB0C8AC119BF4A8600C6D448 /* Sources */,
+				BB0C8AC219BF4A8600C6D448 /* Frameworks */,
+				BB0C8AC319BF4A8600C6D448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0C8ACA19BF4A8600C6D448 /* PBXTargetDependency */,
+			);
+			name = "Nginx ControlTests";
+			productName = "Nginx ControlTests";
+			productReference = BB0C8AC519BF4A8600C6D448 /* Nginx ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0C8A9C19BF4A8600C6D448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Plamen Todorov";
+				TargetAttributes = {
+					BB0C8AC419BF4A8600C6D448 = {
+						TestTargetID = BB0C8AA319BF4A8600C6D448;
+					};
+				};
+			};
+			buildConfigurationList = BB0C8A9F19BF4A8600C6D448 /* Build configuration list for PBXProject "Nginx Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0C8A9B19BF4A8600C6D448;
+			productRefGroup = BB0C8AA519BF4A8600C6D448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0C8AA319BF4A8600C6D448 /* Nginx Control */,
+				BB0C8AC419BF4A8600C6D448 /* Nginx ControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0C8AA219BF4A8600C6D448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0C8AB219BF4A8600C6D448 /* InfoPlist.strings in Resources */,
+				BB0C8AC019BF4A8600C6D448 /* Images.xcassets in Resources */,
+				BB0C8AB819BF4A8600C6D448 /* Credits.rtf in Resources */,
+				BB0C8ABE19BF4A8600C6D448 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0C8AC319BF4A8600C6D448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0C8AD019BF4A8600C6D448 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0C8AA019BF4A8600C6D448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0C8ABB19BF4A8600C6D448 /* AppDelegate.m in Sources */,
+				BB0C8AB419BF4A8600C6D448 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0C8AC119BF4A8600C6D448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0C8AD219BF4A8600C6D448 /* Nginx_ControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0C8ACA19BF4A8600C6D448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0C8AA319BF4A8600C6D448 /* Nginx Control */;
+			targetProxy = BB0C8AC919BF4A8600C6D448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB0C8AB019BF4A8600C6D448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0C8AB119BF4A8600C6D448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB0C8AB619BF4A8600C6D448 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0C8AB719BF4A8600C6D448 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BB0C8ABC19BF4A8600C6D448 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0C8ABD19BF4A8600C6D448 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BB0C8ACE19BF4A8600C6D448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB0C8ACF19BF4A8600C6D448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB0C8AD319BF4A8600C6D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB0C8AD419BF4A8600C6D448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB0C8AD619BF4A8600C6D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nginx Control/Nginx Control-Prefix.pch";
+				INFOPLIST_FILE = "Nginx Control/Nginx Control-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB0C8AD719BF4A8600C6D448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nginx Control/Nginx Control-Prefix.pch";
+				INFOPLIST_FILE = "Nginx Control/Nginx Control-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB0C8AD919BF4A8600C6D448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nginx Control.app/Contents/MacOS/Nginx Control";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nginx Control/Nginx Control-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nginx ControlTests/Nginx ControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB0C8ADA19BF4A8600C6D448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Nginx Control.app/Contents/MacOS/Nginx Control";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nginx Control/Nginx Control-Prefix.pch";
+				INFOPLIST_FILE = "Nginx ControlTests/Nginx ControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0C8A9F19BF4A8600C6D448 /* Build configuration list for PBXProject "Nginx Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0C8AD319BF4A8600C6D448 /* Debug */,
+				BB0C8AD419BF4A8600C6D448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0C8AD519BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "Nginx Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0C8AD619BF4A8600C6D448 /* Debug */,
+				BB0C8AD719BF4A8600C6D448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB0C8AD819BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "Nginx ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0C8AD919BF4A8600C6D448 /* Debug */,
+				BB0C8ADA19BF4A8600C6D448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB0C8A9C19BF4A8600C6D448 /* Project object */;
+}
