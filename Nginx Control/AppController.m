@@ -8,13 +8,21 @@
 
 #import "AppController.h"
 
-#define kServerPath   @"/usr/local/bin/nginx"
-#define kPidFilePath  @"/usr/local/var/run/nginx.pid"
-#define kConfigEditor @"TextMate" // falls back to TextEdit
+#define kServerPath         @"/usr/local/bin/nginx"
+#define kPidFilePath        @"/usr/local/var/run/nginx.pid"
+#define kConfigFilePath     @"/usr/local/etc/nginx/nginx.conf"
+
+#define kConfigEditor       @"TextMate" // falls back to TextEdit
+
+typedef enum : NSUInteger {
+    StartStop    = 1,
+    ReloadConfig = 2,
+} ServerAction;
 
 @interface AppController () <NSMenuDelegate>
 {
     NSStatusItem *statusBar;
+    NSString *currentPassword;
 }
 
 @property (nonatomic, weak) IBOutlet NSMenu *mainMenu;
@@ -34,16 +42,25 @@
     [statusBar setImage:[NSImage imageNamed:@"mbi"]];
     [statusBar setAlternateImage:[NSImage imageNamed:@"mbi-w"]];
     [statusBar setToolTip:@"Nginx Control Panel"];
+    
+    currentPassword = [[NSUserDefaults standardUserDefaults] objectForKey:@"sudoPasswd"];
 }
 
 #pragma mark - SHELL
 
 -(void)exec:(NSArray *)arguments
 {
+    NSString *pass = @"";
+    if(currentPassword){
+        pass = [NSString stringWithFormat:@"password \"%@\"", currentPassword];
+    }
+    
     NSString *args         = (arguments.count > 0 ? [NSString stringWithFormat:@" %@", [arguments componentsJoinedByString:@" "]] : @"");
-    NSString *command	   = [NSString stringWithFormat:@"do shell script \"sudo %@%@\" with administrator privileges", kServerPath, args];
+    NSString *command	   = [NSString stringWithFormat:@"do shell script \"sudo %@%@\" %@ with administrator privileges", kServerPath, args, pass];
     NSAppleScript *script  = [[NSAppleScript alloc] initWithSource:command];
 
+    NSLog(@"%@", command);
+    
     NSDictionary *error;
     [script executeAndReturnError:&error];
 
@@ -98,7 +115,34 @@
         app = @"TextEdit";
     }
     
-    [[NSWorkspace sharedWorkspace] openFile:@"/usr/local/etc/nginx/nginx.conf" withApplication:app];
+    [[NSWorkspace sharedWorkspace] openFile:kConfigFilePath withApplication:app];
+}
+
+-(IBAction)setCredentials:(id)sender
+{
+    NSAlert *alert = [NSAlert alertWithMessageText:@"Seting Up Sudo Access"
+                                     defaultButton:@"Save"
+                                   alternateButton:@"Cancel"
+                                       otherButton:nil
+                         informativeTextWithFormat:@"You could save your password here and not having to enter it every time!"];
+    
+    
+    NSSecureTextField *input = [[NSSecureTextField alloc] initWithFrame:NSMakeRect(0, 0, 200, 24)];
+
+    if(currentPassword){
+        [input setStringValue:currentPassword];
+    }
+    
+    [alert setAccessoryView:input];
+    
+    NSInteger button = [alert runModal];
+    
+    if(button == NSAlertDefaultReturn)
+    {
+        [input validateEditing];
+        currentPassword = [input stringValue];
+        [[NSUserDefaults standardUserDefaults] setObject:currentPassword forKey:@"sudoPasswd"];
+    }
 }
 
 @end

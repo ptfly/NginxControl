@@ -13,7 +13,6 @@
 		BB0C8AB819BF4A8600C6D448 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8AB619BF4A8600C6D448 /* Credits.rtf */; };
 		BB0C8ABB19BF4A8600C6D448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0C8ABA19BF4A8600C6D448 /* AppDelegate.m */; };
 		BB0C8ABE19BF4A8600C6D448 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8ABC19BF4A8600C6D448 /* MainMenu.xib */; };
-		BB0C8AC019BF4A8600C6D448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8ABF19BF4A8600C6D448 /* Images.xcassets */; };
 		BB0C8AC719BF4A8600C6D448 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0C8AC619BF4A8600C6D448 /* XCTest.framework */; };
 		BB0C8AC819BF4A8600C6D448 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0C8AA719BF4A8600C6D448 /* Cocoa.framework */; };
 		BB0C8AD019BF4A8600C6D448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8ACE19BF4A8600C6D448 /* InfoPlist.strings */; };
@@ -23,6 +22,7 @@
 		BB0C8AE119BF4E2000C6D448 /* mbi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8ADF19BF4E2000C6D448 /* mbi@2x.png */; };
 		BB0C8AE419BF4E7100C6D448 /* mbi-w.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8AE219BF4E7000C6D448 /* mbi-w.png */; };
 		BB0C8AE519BF4E7100C6D448 /* mbi-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8AE319BF4E7100C6D448 /* mbi-w@2x.png */; };
+		BB4F58F919C1D7C60092673B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4F58F819C1D7C60092673B /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +36,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BB0C8AA419BF4A8600C6D448 /* Nginx Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nginx Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0C8AA419BF4A8600C6D448 /* NginxControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NginxControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0C8AA719BF4A8600C6D448 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BB0C8AAA19BF4A8600C6D448 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		BB0C8AAB19BF4A8600C6D448 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BB0C8AAC19BF4A8600C6D448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BB0C8AAF19BF4A8600C6D448 /* Nginx Control-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nginx Control-Info.plist"; sourceTree = "<group>"; };
+		BB0C8AAF19BF4A8600C6D448 /* NginxControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NginxControl-Info.plist"; sourceTree = "<group>"; };
 		BB0C8AB119BF4A8600C6D448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB0C8AB319BF4A8600C6D448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB0C8AB519BF4A8600C6D448 /* Nginx Control-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nginx Control-Prefix.pch"; sourceTree = "<group>"; };
+		BB0C8AB519BF4A8600C6D448 /* NginxControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NginxControl-Prefix.pch"; sourceTree = "<group>"; };
 		BB0C8AB719BF4A8600C6D448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		BB0C8AB919BF4A8600C6D448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BB0C8ABA19BF4A8600C6D448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BB0C8ABD19BF4A8600C6D448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		BB0C8ABF19BF4A8600C6D448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BB0C8AC519BF4A8600C6D448 /* Nginx ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nginx ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0C8AC519BF4A8600C6D448 /* NginxControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NginxControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0C8AC619BF4A8600C6D448 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BB0C8ACD19BF4A8600C6D448 /* Nginx ControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nginx ControlTests-Info.plist"; sourceTree = "<group>"; };
+		BB0C8ACD19BF4A8600C6D448 /* NginxControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NginxControlTests-Info.plist"; sourceTree = "<group>"; };
 		BB0C8ACF19BF4A8600C6D448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB0C8AD119BF4A8600C6D448 /* Nginx_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nginx_ControlTests.m; sourceTree = "<group>"; };
 		BB0C8ADB19BF4B1900C6D448 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		BB0C8ADF19BF4E2000C6D448 /* mbi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbi@2x.png"; sourceTree = "<group>"; };
 		BB0C8AE219BF4E7000C6D448 /* mbi-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbi-w.png"; sourceTree = "<group>"; };
 		BB0C8AE319BF4E7100C6D448 /* mbi-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbi-w@2x.png"; sourceTree = "<group>"; };
+		BB4F58F819C1D7C60092673B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		BB0C8AA519BF4A8600C6D448 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB0C8AA419BF4A8600C6D448 /* Nginx Control.app */,
-				BB0C8AC519BF4A8600C6D448 /* Nginx ControlTests.xctest */,
+				BB0C8AA419BF4A8600C6D448 /* NginxControl.app */,
+				BB0C8AC519BF4A8600C6D448 /* NginxControlTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 				BB0C8ADB19BF4B1900C6D448 /* AppController.h */,
 				BB0C8ADC19BF4B1900C6D448 /* AppController.m */,
 				BB0C8ABC19BF4A8600C6D448 /* MainMenu.xib */,
-				BB0C8ABF19BF4A8600C6D448 /* Images.xcassets */,
+				BB4F58F819C1D7C60092673B /* Images.xcassets */,
 				BB0C8AAE19BF4A8600C6D448 /* Supporting Files */,
 			);
 			path = "Nginx Control";
@@ -144,10 +144,10 @@
 				BB0C8AE319BF4E7100C6D448 /* mbi-w@2x.png */,
 				BB0C8ADE19BF4E2000C6D448 /* mbi.png */,
 				BB0C8ADF19BF4E2000C6D448 /* mbi@2x.png */,
-				BB0C8AAF19BF4A8600C6D448 /* Nginx Control-Info.plist */,
+				BB0C8AAF19BF4A8600C6D448 /* NginxControl-Info.plist */,
 				BB0C8AB019BF4A8600C6D448 /* InfoPlist.strings */,
 				BB0C8AB319BF4A8600C6D448 /* main.m */,
-				BB0C8AB519BF4A8600C6D448 /* Nginx Control-Prefix.pch */,
+				BB0C8AB519BF4A8600C6D448 /* NginxControl-Prefix.pch */,
 				BB0C8AB619BF4A8600C6D448 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -165,7 +165,7 @@
 		BB0C8ACC19BF4A8600C6D448 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BB0C8ACD19BF4A8600C6D448 /* Nginx ControlTests-Info.plist */,
+				BB0C8ACD19BF4A8600C6D448 /* NginxControlTests-Info.plist */,
 				BB0C8ACE19BF4A8600C6D448 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB0C8AA319BF4A8600C6D448 /* Nginx Control */ = {
+		BB0C8AA319BF4A8600C6D448 /* NginxControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB0C8AD519BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "Nginx Control" */;
+			buildConfigurationList = BB0C8AD519BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "NginxControl" */;
 			buildPhases = (
 				BB0C8AA019BF4A8600C6D448 /* Sources */,
 				BB0C8AA119BF4A8600C6D448 /* Frameworks */,
@@ -186,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = "Nginx Control";
+			name = NginxControl;
 			productName = "Nginx Control";
-			productReference = BB0C8AA419BF4A8600C6D448 /* Nginx Control.app */;
+			productReference = BB0C8AA419BF4A8600C6D448 /* NginxControl.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BB0C8AC419BF4A8600C6D448 /* Nginx ControlTests */ = {
+		BB0C8AC419BF4A8600C6D448 /* NginxControlTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB0C8AD819BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "Nginx ControlTests" */;
+			buildConfigurationList = BB0C8AD819BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "NginxControlTests" */;
 			buildPhases = (
 				BB0C8AC119BF4A8600C6D448 /* Sources */,
 				BB0C8AC219BF4A8600C6D448 /* Frameworks */,
@@ -204,9 +204,9 @@
 			dependencies = (
 				BB0C8ACA19BF4A8600C6D448 /* PBXTargetDependency */,
 			);
-			name = "Nginx ControlTests";
+			name = NginxControlTests;
 			productName = "Nginx ControlTests";
-			productReference = BB0C8AC519BF4A8600C6D448 /* Nginx ControlTests.xctest */;
+			productReference = BB0C8AC519BF4A8600C6D448 /* NginxControlTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB0C8A9F19BF4A8600C6D448 /* Build configuration list for PBXProject "Nginx Control" */;
+			buildConfigurationList = BB0C8A9F19BF4A8600C6D448 /* Build configuration list for PBXProject "NginxControl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -236,8 +236,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB0C8AA319BF4A8600C6D448 /* Nginx Control */,
-				BB0C8AC419BF4A8600C6D448 /* Nginx ControlTests */,
+				BB0C8AA319BF4A8600C6D448 /* NginxControl */,
+				BB0C8AC419BF4A8600C6D448 /* NginxControlTests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,9 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB0C8AB219BF4A8600C6D448 /* InfoPlist.strings in Resources */,
+				BB4F58F919C1D7C60092673B /* Images.xcassets in Resources */,
 				BB0C8AE119BF4E2000C6D448 /* mbi@2x.png in Resources */,
 				BB0C8AE419BF4E7100C6D448 /* mbi-w.png in Resources */,
-				BB0C8AC019BF4A8600C6D448 /* Images.xcassets in Resources */,
 				BB0C8AB819BF4A8600C6D448 /* Credits.rtf in Resources */,
 				BB0C8AE519BF4E7100C6D448 /* mbi-w@2x.png in Resources */,
 				BB0C8ABE19BF4A8600C6D448 /* MainMenu.xib in Resources */,
@@ -292,7 +292,7 @@
 /* Begin PBXTargetDependency section */
 		BB0C8ACA19BF4A8600C6D448 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BB0C8AA319BF4A8600C6D448 /* Nginx Control */;
+			target = BB0C8AA319BF4A8600C6D448 /* NginxControl */;
 			targetProxy = BB0C8AC919BF4A8600C6D448 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,10 +409,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nginx Control/Nginx Control-Prefix.pch";
-				INFOPLIST_FILE = "Nginx Control/Nginx Control-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Nginx Control/NginxControl-Prefix.pch";
+				INFOPLIST_FILE = "Nginx Control/NginxControl-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = NginxControl;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -423,10 +423,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Nginx Control/Nginx Control-Prefix.pch";
-				INFOPLIST_FILE = "Nginx Control/Nginx Control-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Nginx Control/NginxControl-Prefix.pch";
+				INFOPLIST_FILE = "Nginx Control/NginxControl-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = NginxControl;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -446,9 +446,9 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Nginx ControlTests/Nginx ControlTests-Info.plist";
+				INFOPLIST_FILE = "Nginx ControlTests/NginxControlTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NginxControlTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -465,9 +465,9 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nginx Control/Nginx Control-Prefix.pch";
-				INFOPLIST_FILE = "Nginx ControlTests/Nginx ControlTests-Info.plist";
+				INFOPLIST_FILE = "Nginx ControlTests/NginxControlTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NginxControlTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -476,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB0C8A9F19BF4A8600C6D448 /* Build configuration list for PBXProject "Nginx Control" */ = {
+		BB0C8A9F19BF4A8600C6D448 /* Build configuration list for PBXProject "NginxControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB0C8AD319BF4A8600C6D448 /* Debug */,
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB0C8AD519BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "Nginx Control" */ = {
+		BB0C8AD519BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "NginxControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB0C8AD619BF4A8600C6D448 /* Debug */,
@@ -494,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB0C8AD819BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "Nginx ControlTests" */ = {
+		BB0C8AD819BF4A8600C6D448 /* Build configuration list for PBXNativeTarget "NginxControlTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB0C8AD919BF4A8600C6D448 /* Debug */,

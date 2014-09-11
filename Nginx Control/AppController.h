@@ -8,11 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum : NSUInteger {
-    StartStop    = 1,
-    ReloadConfig = 2,
-} ServerAction;
-
 @interface AppController : NSObject
 
 @end
