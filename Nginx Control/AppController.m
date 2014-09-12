@@ -120,7 +120,7 @@ typedef enum : NSUInteger {
 
 -(IBAction)setCredentials:(id)sender
 {
-    NSAlert *alert = [NSAlert alertWithMessageText:@"Seting Up Sudo Access"
+    NSAlert *alert = [NSAlert alertWithMessageText:@"Setting Up Sudo Access"
                                      defaultButton:@"Save"
                                    alternateButton:@"Cancel"
                                        otherButton:nil
