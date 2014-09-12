@@ -23,6 +23,8 @@
 		BB0C8AE419BF4E7100C6D448 /* mbi-w.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8AE219BF4E7000C6D448 /* mbi-w.png */; };
 		BB0C8AE519BF4E7100C6D448 /* mbi-w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0C8AE319BF4E7100C6D448 /* mbi-w@2x.png */; };
 		BB4F58F919C1D7C60092673B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB4F58F819C1D7C60092673B /* Images.xcassets */; };
+		BB4F58FB19C2B2650092673B /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = BB4F58FA19C2B2650092673B /* screenshot.png */; };
+		BB4F58FF19C2B3920092673B /* NginxControl.zip in Resources */ = {isa = PBXBuildFile; fileRef = BB4F58FE19C2B3920092673B /* NginxControl.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		BB0C8AE219BF4E7000C6D448 /* mbi-w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbi-w.png"; sourceTree = "<group>"; };
 		BB0C8AE319BF4E7100C6D448 /* mbi-w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mbi-w@2x.png"; sourceTree = "<group>"; };
 		BB4F58F819C1D7C60092673B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB4F58FA19C2B2650092673B /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		BB4F58FE19C2B3920092673B /* NginxControl.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = NginxControl.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		BB0C8A9B19BF4A8600C6D448 = {
 			isa = PBXGroup;
 			children = (
+				BB4F58FE19C2B3920092673B /* NginxControl.zip */,
+				BB4F58FA19C2B2650092673B /* screenshot.png */,
 				BB0C8AAD19BF4A8600C6D448 /* Nginx Control */,
 				BB0C8ACB19BF4A8600C6D448 /* Nginx ControlTests */,
 				BB0C8AA619BF4A8600C6D448 /* Frameworks */,
@@ -250,6 +256,8 @@
 				BB0C8AB219BF4A8600C6D448 /* InfoPlist.strings in Resources */,
 				BB4F58F919C1D7C60092673B /* Images.xcassets in Resources */,
 				BB0C8AE119BF4E2000C6D448 /* mbi@2x.png in Resources */,
+				BB4F58FB19C2B2650092673B /* screenshot.png in Resources */,
+				BB4F58FF19C2B3920092673B /* NginxControl.zip in Resources */,
 				BB0C8AE419BF4E7100C6D448 /* mbi-w.png in Resources */,
 				BB0C8AB819BF4A8600C6D448 /* Credits.rtf in Resources */,
 				BB0C8AE519BF4E7100C6D448 /* mbi-w@2x.png in Resources */,
