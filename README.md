@@ -8,8 +8,8 @@ Menu bar application for easily start/stop/reload nginx server installed on your
 Download compiled version: [NginxControll.app](https://github.com/ptfly/NginxControl/blob/master/NginxControl.zip)
 
 ## Note 
-My nginx installation is done through brew, and all nginx paths required for NginxControl to work are hardcoded according that setup.
-These are the paths used by the application and if you installed it with brew, this should work out-of-the-box on your setup:
+My nginx installation is done through brew, and all nginx paths required for NginxControl to work are hardcoded according to that install.
+These are the paths used by the application and if you did it with brew, the app should work out-of-the-box on your setup:
 
 > /usr/local/bin/nginx
 
